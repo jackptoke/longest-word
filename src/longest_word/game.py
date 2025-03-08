@@ -1,4 +1,20 @@
+
+"""
+This is just a simple test file to verify if the methods are behaving as expected.
+
+Classes:
+    Game: The main class of the game.
+
+Functions:
+    is_valid(text): check if the word is valid in a given grid of letters
+    can_make_word(word, letters): check if the word can be made with the letters
+
+"""
+
 from collections import Counter
+
+
+
 class Game:
     grid = None
 
